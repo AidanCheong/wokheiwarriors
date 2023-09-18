@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(wokheimenubackground.jpg);
+    background-size: cover;
+    background-position: center;
+
+    font-family: sans-serif;
+    padding: -40px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #f90;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.logo{
+    border-radius: 50%;
+    width:4.25%;
+    height:4.25%;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding: -20px;
+    display: flex;
+    align-content:normal;
+    justify-content: space-between;
+}
+
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .base, .meat, .drink, .set{
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 18   px;
+    align-items: center;
+  }
+  
+  .orderlink {
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: white;
+  }
